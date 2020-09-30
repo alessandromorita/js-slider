@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">Menu</div>
+      <div class="slider">
+        <div class="slider--controls">
+          <div class="slider--control" onclick="goPrev()">
+            <img src="./images/back.png" alt="Voltar" width="50px" />
+          </div>
+          <div class="slider--control" onclick="goNext()">
+            <img src="./images/forward.png" alt="Próximo" width="50px" />
+          </div>
+        </div>
+        <div class="slider--width">
+          <div
+            class="slider--item"
+            style="background-image: url('images/1.jpg')"
+          ></div>
+          <div
+            class="slider--item"
+            style="background-image: url('images/2.jpg')"
+          ></div>
+          <div
+            class="slider--item"
+            style="background-image: url('images/3.jpg')"
+          ></div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <h1>Resto do site</h1>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
